@@ -44,3 +44,10 @@ For the high risk loan class:
 - f1-score is 0.88, which is a harmonic mean of precision and recall for this class.
 
 These metrics collectively suggest that the logistic regression model is highly effective in predicting both classes, with particularly strong performance in identifying healthy loans and reasonably good performance in detecting high-risk loans.
+
+## Summary
+### Lender Recommendation
+After completing this analysis, I recommend using this Logistic Regression Model to determine if loans should be classified as healthy or high-risk. In this context, it is safer for the lender to incorrectly label a loan as high-risk vs incorrectly labelling a loan as healthy. When loans were labeled healthy, the model was correct 100% of the time, so the lender can feel secure providing that loan. 
+
+### Borrower Impact
+There was more inaccuracy when labelling loans as high-risk. Although this is unfortunate for the potential borrowers, this is a safer model for the lender. Although prioritizing the lender's safety is necessary, it's essential to acknowledge the potential consequences for borrowers who may be unfairly categorized as high-risk.

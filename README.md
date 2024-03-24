@@ -20,7 +20,7 @@ Factors considered in the analysis based on the data included:
 
 ## Stages of the machine learning process
 To complete this analysis, the following steps were taken:
-- Separaate the data into labels and features (independent and dependent variables)
+- Separate the data into labels and features (independent and dependent variables)
 - Split the data into training and testing sets
 - Fit a logistic regression model using the training data
 - Make predictions using the testing features data
